@@ -14,7 +14,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Getter
 @Setter
@@ -26,7 +25,4 @@ public abstract class Promotion {
     private Long id;
     private int promotionId;
     private double discount;
-
-    public Promotion(int promotionId, double discount) {
-    }
 }
